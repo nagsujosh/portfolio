@@ -106,8 +106,8 @@ function button(){
         subject: document.getElementById("subject").value,
         message: document.getElementById("message").value
     }
-    const serviceID = "service_s756zuf"
-    const templeteID = "template_vrn0mhl"
+    const serviceID = "notsharable"
+    const templeteID = "notsharable"
 
     emailjs
         .send(serviceID, templeteID, params)
