@@ -574,11 +574,6 @@ footer span a:hover{
     .about .about-content .right{
         flex: 100%;
     }
-    .awards .serv-content .card{
-        width: calc(50% - 10px);
-        margin-bottom: 20px;
-    }
-    .skills .skills-content .column,
     .contact .contact-content .column{
         width: 100%;
         margin-bottom: 35px;
@@ -598,20 +593,53 @@ footer span a:hover{
     .home .home-content a{
         font-size: 20px;
     }
-    .awards .serv-content .card{
+    .awards{
         width: 100%;
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 650px) {
+    .prev, .next{
+        z-index: 999999;
+    }
+    
+    .mySlidesRes2 {
+        position: relative;
+        overflow: hidden;
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-top: 56.25%;
+    }
+    .mySlidesRes1 {
+        position: relative; 
+        overflow: hidden;
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .iframe1{
+        height: 400px;
+    }
+    .iframe2{
+        height: 590px;
+    }
+    .iframe-class {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+    }
     .home .home-content .text-2{
         font-size: 50px;
     }
     .home .home-content .text-3{
         font-size: 27px;
     }
-    .about .about-content .right .text,
-    .skills .skills-content .left .text{
+    .about .about-content .right .text{
         font-size: 19px;
     }
     .contact .right form .fields{

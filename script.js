@@ -106,7 +106,7 @@ function button(){
         subject: document.getElementById("subject").value,
         message: document.getElementById("message").value
     }
-    const serviceID = "notsharable"
+    const serviceID = "service_s756zuf"
     const templeteID = "template_vrn0mhl"
 
     emailjs
@@ -116,6 +116,6 @@ function button(){
             document.getElementById("email").value = ""
             document.getElementById("subject").value = ""
             document.getElementById("message").value = ""
-            alert("Your Message Have Been Sent Successfully. ")
+            alert("Your Message Have Been Sent Successfully")
         })
     }
