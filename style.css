@@ -385,7 +385,7 @@ section .title::after{
   
 @keyframes fade {
     from {opacity: .2}
-    to {opacity: 1}
+    to {opacity: .7}
 }
 
 /* contact section styling */
@@ -420,10 +420,6 @@ section .title::after{
 }
 .contact .contact-content .row .info{
     margin-left: 0px;
-}
-.contact .contact-content .row i{
-    font-size: 25px;
-    color: crimson;
 }
 .contact .contact-content .info .head{
     font-weight: 500;
@@ -505,7 +501,6 @@ footer span a:hover{
     text-decoration: underline;
 }
 
-
 /* responsive media query start */
 @media (max-width: 1104px) {
     .about .about-content .left img{
@@ -513,7 +508,6 @@ footer span a:hover{
         width: 350px;
     }
 }
-
 @media (max-width: 991px) {
     .max-width{
         padding: 0 50px;
@@ -579,7 +573,6 @@ footer span a:hover{
         margin-bottom: 35px;
     }
 }
-
 @media (max-width: 690px) {
     .max-width{
         padding: 0 23px;
@@ -599,10 +592,6 @@ footer span a:hover{
 }
 
 @media (max-width: 650px) {
-    .prev, .next{
-        z-index: 999999;
-    }
-    
     .mySlidesRes2 {
         position: relative;
         overflow: hidden;
@@ -680,6 +669,7 @@ footer span a:hover{
     height:50px;
     opacity:0.8;
     padding: 5%;
+    transition: all 0.3s ease-in-out;
 }
 .social > a {
     font-size:24px;
